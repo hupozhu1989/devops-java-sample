@@ -1,4 +1,4 @@
-package io.kubesphere.devops;
+package io.kubesphere;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
