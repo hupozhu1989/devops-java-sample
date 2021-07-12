@@ -19,7 +19,7 @@ public class HelloWorldController {
     @Autowired
     private ServerConfig serverConfig;
 
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String sayHello() {
         logger.info("请求来了。。。");
         return "power of our life...返回地址>>> "+serverConfig.getUrl();
